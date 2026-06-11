@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Shoaib Majid Dar, Data Scientist & Full-Stack Developer. RAG systems, LLM automation, computer vision, and the infrastructure that carries them to production.">
+  <title>Shoaib Majid Dar | Data Scientist &amp; Full-Stack Developer</title>
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme') ||
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">S.M.Dar<sup>EST. 2022</sup></a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="portfolio.html" class="nav-link">Work</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg class="moon-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-top mono reveal">
+        <span class="status-pill"><span class="status-dot"></span>Open to new opportunities</span>
+        <span>Portfolio, Vol. 2026</span>
+      </div>
+      <h1 class="masthead-name reveal d1">
+        Shoaib Majid <span class="last-name">Dar</span>
+      </h1>
+      <dl class="masthead-meta reveal d2">
+        <div>
+          <dt class="mono">Role</dt>
+          <dd>Data Scientist &amp; Full-Stack Developer</dd>
+        </div>
+        <div>
+          <dt class="mono">Currently</dt>
+          <dd>CodefyU, 2025&ndash;present</dd>
+        </div>
+        <div>
+          <dt class="mono">Previously</dt>
+          <dd>Graphic Weave, 2022&ndash;2024</dd>
+        </div>
+        <div>
+          <dt class="mono">Education</dt>
+          <dd>BE, Computer Science</dd>
+        </div>
+      </dl>
+    </div>
+  </header>
+
+  <!-- Abstract -->
+  <section class="abstract">
+    <div class="container">
+      <span class="abstract-label mono reveal">Abstract</span>
+      <div class="abstract-body">
+        <p class="reveal d1">
+          I build machine-learning systems that <em>survive production</em>: RAG pipelines,
+          LLM-powered automation, computer vision, and the real-time APIs and AWS
+          infrastructure underneath them.
+        </p>
+        <p class="reveal d2">
+          Equally at home training a model and shipping the product around it:
+          FastAPI &amp; Flask on the backend, React on the front, Qdrant, PostgreSQL
+          and MongoDB underneath.
+        </p>
+        <div class="abstract-actions reveal d3">
+          <a href="portfolio.html" class="btn btn-primary">
+            View the work
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+          <a href="contact.html" class="btn btn-secondary">Get in touch</a>
+          <div class="hero-social">
+            <a href="https://github.com/ShoaibMajidDar" target="_blank" rel="noopener" class="icon-link"
+              aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56 4.57-1.52 7.85-5.83 7.85-10.91C23.5 5.65 18.35.5 12 .5Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/shoaib-dar-37178b1ab/" target="_blank" rel="noopener"
+              class="icon-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0Z" />
+              </svg>
+            </a>
+            <a href="mailto:shoaibmajid92@gmail.com" class="icon-link" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee divider -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>RAG Systems</span><span class="sep">●</span>
+      <span>LLM Automation</span><span class="sep">●</span>
+      <span>Computer Vision</span><span class="sep">●</span>
+      <span>WebSocket APIs</span><span class="sep">●</span>
+      <span>AWS Data Pipelines</span><span class="sep">●</span>
+      <span>Fine-tuning</span><span class="sep">●</span>
+      <span>RAG Systems</span><span class="sep">●</span>
+      <span>LLM Automation</span><span class="sep">●</span>
+      <span>Computer Vision</span><span class="sep">●</span>
+      <span>WebSocket APIs</span><span class="sep">●</span>
+      <span>AWS Data Pipelines</span><span class="sep">●</span>
+      <span>Fine-tuning</span><span class="sep">●</span>
+    </div>
+  </div>
+
+  <!-- Selected work -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono">01 / Selected work</span>
+          <h2>Field-tested <em>projects</em></h2>
+        </div>
+        <a href="portfolio.html" class="section-link">Full index &rarr;</a>
+      </div>
+
+      <div class="featured-grid">
+        <a href="project.html?id=quoting-platform" class="feature-card reveal d1">
+          <div class="feature-top mono">
+            <span>№ 01 / CodefyU</span>
+            <span class="feature-arrow">&#8599;</span>
+          </div>
+          <h3>Installation Quoting Platform</h3>
+          <p>Real-time quote generation over WebSockets on FastAPI + React, grounded by a
+            Qdrant RAG pipeline with hybrid semantic + BM25 retrieval.</p>
+          <div class="tag-row">
+            <span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Qdrant</span>
+          </div>
+        </a>
+        <a href="project.html?id=pid-digitization" class="feature-card reveal d2">
+          <div class="feature-top mono">
+            <span>№ 07 / Graphic Weave</span>
+            <span class="feature-arrow">&#8599;</span>
+          </div>
+          <h3>P&amp;ID Digitization for HAZOP</h3>
+          <p>End-to-end computer vision: YOLO detection at 91% accuracy, OCR, and a custom
+            pixel-traversal algorithm that maps equipment-instrument links.</p>
+          <div class="tag-row">
+            <span class="tag">YOLO</span><span class="tag">OCR</span><span class="tag">Flask</span>
+          </div>
+        </a>
+        <a href="project.html?id=workflow-automations" class="feature-card reveal d3">
+          <div class="feature-top mono">
+            <span>№ 05 / CodefyU</span>
+            <span class="feature-arrow">&#8599;</span>
+          </div>
+          <h3>Workflow Automation Suite</h3>
+          <p>Email-triggered N8N and Zapier automations: Drive files summarized into Docs,
+            and a housing-search bot that scrapes Airbnb and Furnished Finder and replies
+            with the right property.</p>
+          <div class="tag-row">
+            <span class="tag">N8N</span><span class="tag">Zapier</span><span class="tag">Gmail</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker mono">02 / Capabilities</span>
+          <h2>What I <em>actually</em> do</h2>
+        </div>
+      </div>
+    </div>
+    <div class="cap-grid">
+      <div class="cap-cell reveal d1">
+        <span class="cap-num mono">A.</span>
+        <h3>AI &amp; Machine Learning</h3>
+        <ul>
+          <li>RAG &amp; hybrid search</li>
+          <li>LLM agents &amp; automation</li>
+          <li>Supervised fine-tuning</li>
+          <li>RL feedback workflows</li>
+          <li>Computer vision &amp; OCR</li>
+        </ul>
+      </div>
+      <div class="cap-cell reveal d2">
+        <span class="cap-num mono">B.</span>
+        <h3>Backend &amp; Real-time</h3>
+        <ul>
+          <li>FastAPI / Flask / NestJS</li>
+          <li>WebSocket APIs</li>
+          <li>RabbitMQ workers</li>
+          <li>React &amp; Next.js frontends</li>
+          <li>SpiceDB authorization</li>
+        </ul>
+      </div>
+      <div class="cap-cell reveal d3">
+        <span class="cap-num mono">C.</span>
+        <h3>Data &amp; Cloud</h3>
+        <ul>
+          <li>AWS RDS / Redshift / EC2</li>
+          <li>Zero-ETL analytics</li>
+          <li>PostgreSQL / MongoDB / Qdrant</li>
+          <li>N8N &amp; Zapier automation</li>
+          <li>Cost guardrails (AWS Budgets)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="reveal">Have something worth <em>building?</em></h2>
+      <a href="contact.html" class="btn btn-primary reveal d1">
+        Start a conversation
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-colophon">© 2026 Shoaib Majid Dar<br>Set in Fraunces &amp; IBM Plex Mono</p>
+      <div class="footer-social">
+        <a href="https://github.com/ShoaibMajidDar" target="_blank" rel="noopener" class="icon-link"
+          aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.21-1.49 3.17-1.18 3.17-1.18.63 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56 4.57-1.52 7.85-5.83 7.85-10.91C23.5 5.65 18.35.5 12 .5Z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/shoaib-dar-37178b1ab/" target="_blank" rel="noopener" class="icon-link"
+          aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0Z" />
+          </svg>
+        </a>
+        <a href="mailto:shoaibmajid92@gmail.com" class="icon-link" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
